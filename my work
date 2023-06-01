@@ -1,0 +1,15 @@
+class cashieringsystem:
+def __init__(self, a=0, r=0, recieve=0, change=0, temp=0):
+print("\n\n***welcome to simple cashiering system****\n)
+self.a= a
+self.r= r
+self.recieve= recieve
+self.change= change
+self.temp= temp
+def devices(self):
+print("****devices menu****)
+print("iphone-->30" , "\n android-->30" , "\n mouses-->40" , "\n exit")
+while (1):
+c= int(input("choose:\n"))
+if (c==1):
+d = int(input("enter the quantity:\n")
